@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Mission07.Models
 {
-    public class EFBookProjectRepository
+    public class EFBookProjectRepository : IBookProjectRepository
     {
         private BookstoreContext context { get; set; }
 
@@ -12,6 +12,6 @@ namespace Mission07.Models
             context = temp;
         }
 
-        public IQueryable<Book> Projects => context.Books;
+        public IQueryable<Book> Books => context.Books;
     }
 }

@@ -1,14 +1,21 @@
-﻿@{
-    ViewBag.Calc = 25.0 / 6;
-}
-
-@model BooksViewModel
-
-<h1>@ViewBag.Calc</h1>
+﻿@model BooksViewModel
 
 <h1>The Book Collection</h1>
 
-@foreach (Book p in Model.Books)
-{
-    <h3>@p.Title</h3>
-}
+<div class="container">
+    @foreach (Book b in Model.Books)
+    {
+        <h3>@b.Title</h3>
+
+        <ul>
+            <li>Author: @b.Author</li>
+            <li>Publisher: @b.Publisher</li>
+            <li>ISBN: @b.Isbn</li>
+            <li>Classification/Category: @b.Classification/@b.Category</li>
+            <li>Number of Pages: @b.PageCount</li>
+            <li>Price: $@b.Price</li>
+        </ul>
+        <br />
+    }
+</div>
+<div page-book="@Model.PageInfo" page-action="Index"></div>

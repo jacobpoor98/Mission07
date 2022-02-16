@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{6A21751D-2A49-4777-9929-72C2454BAF2B}|Default">
   <MonoDevelop.Ide.ItemProperties.Mission07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission07/Infrastructure/PaginationTagHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission07/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
     <Files>
-      <File FileName="Mission07/Startup.cs" Line="38" Column="47" />
-      <File FileName="Mission07/Views/Home/Index.cshtml" Line="2" Column="7" />
-      <File FileName="Mission07/Infrastructure/PaginationTagHelper.cs" Line="1" Column="1" />
+      <File FileName="Mission07/Views/Home/Index.cshtml" Line="9" Column="9" />
+      <File FileName="Mission07/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,11 +11,25 @@
           <Node name="Mission07" expanded="True">
             <Node name="Mission07" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Infrastructure" expanded="True">
-                <Node name="PaginationTagHelper.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True">
+                        <Node name="bootstrap-grid.css" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
