@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jacob.poor98/Documents/Junior Year - BYU/IS 413/Mission07/Mission07/Mission07/Mission07.csproj",
+      "projectUniqueName": "/Users/jacob.poor98/Documents/GitHub/Mission07/Mission07/Mission07.csproj",
       "projectName": "Mission07",
-      "projectPath": "/Users/jacob.poor98/Documents/Junior Year - BYU/IS 413/Mission07/Mission07/Mission07/Mission07.csproj",
+      "projectPath": "/Users/jacob.poor98/Documents/GitHub/Mission07/Mission07/Mission07.csproj",
       "packagesPath": "/Users/jacob.poor98/.nuget/packages/",
-      "outputPath": "/Users/jacob.poor98/Documents/Junior Year - BYU/IS 413/Mission07/Mission07/Mission07/obj/",
+      "outputPath": "/Users/jacob.poor98/Documents/GitHub/Mission07/Mission07/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jacob.poor98/.config/NuGet/NuGet.Config"
