@@ -27,6 +27,7 @@ namespace Mission07
         {
             services.AddControllersWithViews();
 
+            // establish the connection screen
             services.AddDbContext<BookstoreContext>(options =>
             {
                 options.UseSqlite(Configuration["ConnectionStrings:BookDBConnection"]);

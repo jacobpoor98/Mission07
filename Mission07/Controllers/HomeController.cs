@@ -23,6 +23,7 @@ namespace Mission07.Controllers
         {
             int pageSize = 10;
 
+            // gather the info needed for the page info page and send it off
             var x = new BooksViewModel
             {
                 Books = repo.Books

@@ -8,6 +8,8 @@ using Mission07.Models.ViewModels;
 
 namespace Mission07.Infrastructure
 {
+    // this is used to create the page-book shortcut so that the html for
+    // the number of pages needed is dynamically created
     [HtmlTargetElement("div", Attributes = "page-book")]
     public class PaginationTagHelper : TagHelper
     {
@@ -27,6 +29,7 @@ namespace Mission07.Infrastructure
 
         public override void Process(TagHelperContext thc, TagHelperOutput tho)
         {
+            // this specifically will add the HTML with links
             IUrlHelper uh = uhf.GetUrlHelper(vc);
 
             TagBuilder final = new TagBuilder("div");
